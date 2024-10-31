@@ -1,0 +1,92 @@
+/* Back Ground Color for All Pages ==> background: linear-gradient(45deg, #261e4c, #25284b);*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Oswald:wght@200..700&display=swap');
+
+:root
+{
+    --backcolor : #261e4c;    
+    --txtColor : white;
+    --txtweight :  500;
+    --subtxt :  "Gowun Batang", serif ;
+
+}
+
+*{
+    font-family: "Oswald", sans-serif;
+}
+
+body
+{
+    background: var(--backcolor);
+
+}
+
+nav li
+{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+nav li a 
+{
+    text-decoration: none;
+    color: var(--txtColor);
+    font-family: var(--subtxt);
+    font-weight: var(--txtweight);
+    font-weight: bolder;
+}
+
+
+.parent
+{
+    position: absolute;
+    left: 20%;
+}
+
+.top
+{
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+    font-family: var(--subtxt);
+    text-transform: uppercase;
+}
+
+.bottom
+{
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+
+}
+
+.info
+{
+    margin-top: -20px;
+    margin-left: 17px;
+}
+
+.info h3
+{
+    margin-top: -20px;
+}
+
+img
+{
+    height: 55%;
+    width: 94%;
+    border-radius: 20px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.back
+{
+    height: 46vh;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+

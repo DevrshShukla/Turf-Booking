@@ -1,0 +1,93 @@
+/* Back Ground Color for All Pages ==> background: linear-gradient(45deg, #261e4c, #25284b);*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Oswald:wght@200..700&display=swap');
+
+:root
+{
+    --backcolor : #261e4c;    
+    --txtColor : white;
+    --txtweight :  500;
+    --subtxt :  "Gowun Batang", serif ;
+
+}
+
+*{
+    font-family: "Oswald", sans-serif;
+}
+
+.title1
+{
+    color: var(--txtColor);
+    font-weight: var(--txtweight);
+    position: relative;
+    margin-top: 13%;
+    left: 15%;
+}
+
+p {
+    color: var(--txtColor);
+    font-family: var(--subtxt);
+}
+body{
+    background: var(--backcolor);
+    overflow-x :hidden;
+
+}
+
+.signup a{
+    color: var(--txtColor);
+    text-decoration: none;
+    background-color: #1b115b;
+    padding: 10px 55px;
+    position: relative;
+    left: 15%;
+    top: 25px;
+}
+
+.login a{
+    color: var(--txtColor);
+    text-decoration: none;
+    padding: 10px 55px;
+    position: relative;
+    left: 35%;
+}
+
+#logo img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+    left: 68%;
+    top : -275px;
+}
+
+#_3Sport img
+{
+    height: 35%;
+    width: 35%;
+    position: relative;
+    left: 15%;
+    top: -60px;
+}
+
+
+#about
+{
+    position: relative;
+    left:  68%;
+    top: -650px;
+}
+
+#about h2
+{
+    display: block;
+    color: var(--txtColor);
+    font-weight: var(--txtweight);
+}
+#about p
+{
+    font-family: var(--subtxt);
+    height: 40vh;
+    width: 30vw;
+    word-wrap: normal;
+}
